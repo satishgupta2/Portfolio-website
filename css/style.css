@@ -29,6 +29,7 @@ body {
     color: var(--text-color);
 }
 
+
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -63,7 +64,7 @@ section {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem; 
-    transition: .3s;
+    transition: .3s; 
 
 }
 
@@ -124,6 +125,9 @@ span {
 
 .home-img img {
     width: 35vw;
+    border-radius: 50%;
+    height:70vh;
+    background: linear-gradient(rgb(255, 242, 0), orange, rgb(255, 32, 69), purple, blue);
 }
 
 .home-content p {
@@ -180,6 +184,11 @@ span {
 
 .about-img img {
     width: 35vw;
+    height: 60vh;
+    border-radius: 50%;
+    background-size: cover;
+    background: linear-gradient(rgb(255, 242, 0),orange,rgb(255, 32, 69),purple,blue);
+    padding: 4px;
 
 }
 
@@ -270,6 +279,7 @@ span {
 }
 
 .portfolio-box img {
+    height: 40vh;
     width: 100%;
     transition: .5s ease;
 }
@@ -293,6 +303,7 @@ span {
     padding: 0 4rem;
     transform: translate(100%);
     transition: .5s ease;
+    color: red;
 }
 
 .portfolio-box:hover .portfolio-layer {
@@ -307,6 +318,7 @@ span {
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: 3rem 0 1rem;
+    color:purple;
 }
 
 .portfolio-layer a {
@@ -400,6 +412,10 @@ span {
     color: var(--second-bg-color);
 }
 
+.footer p i{
+    font-size: 25px;
+    color: var(--main-color);
+}
 /* breakpoints */
 @media (max-width:1200px) {
     html {
@@ -436,6 +452,7 @@ span {
 @media (max-width:768px) {
     #menu-icon {
         display: block;
+        cursor: pointer;
     }
 
 

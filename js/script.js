@@ -1,3 +1,5 @@
+//message
+// alert('Welcome to Codewithsg')
 // toggle icon navbar 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -55,7 +57,7 @@ ScrollReveal({
 
 // typed js 
 const typed = new Typed ('.Mutliple-text',{
-    strings:['Frontend Developer','Java Developer','Cricketer','Trader','Become Data Scientist'],
+    strings:['Mern Stack Developer','Cricketer'],
     typeSpeed:100,
     backSpeed:50,
     backDelay:100,
